@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && jest dist/",
+    "tsc:init": "tsc --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/system-with-clean-code/api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/system-with-clean-code/api/issues"
+  },
+  "homepage": "https://gitlab.com/system-with-clean-code/api#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "typescript": "^4.3.5"
+  }
+}
