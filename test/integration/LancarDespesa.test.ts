@@ -19,7 +19,7 @@ test('Deve lancar uma despesa parcelada em 3 vezes mensais', async () => {
 
 test('Deve lancar uma despesa parcelada em 2 vezes anuais', async () => {
     let input: LancarDespesaInput = {
-        descricao: 'Tênis',
+        descricao: 'Tênis 2',
         valor: 250,
         vencimento: new Date('2021-12-31'),
         realizado: false,
