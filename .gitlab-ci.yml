@@ -20,4 +20,4 @@ install:
 
 test:
   stage: test
-  script: jest dist/
+  script: npm run jest
