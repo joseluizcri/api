@@ -1,4 +1,4 @@
-export default interface LancarDespesaInput {
+export default interface DespesaInput {
     descricao: string,
     valor: number,
     vencimento: Date,

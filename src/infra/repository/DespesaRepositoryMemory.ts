@@ -17,9 +17,9 @@ export default class DespesaRepositoryMemory implements DespesaRepository {
         return DespesaRepositoryMemory.instance;
     }
 
-    async save(despesa: Despesa): Promise<Despesa> {
+    async save(despesa: Despesa): Promise<number> {
         this.despesas.push(despesa)
-        return Promise.resolve(despesa);
+        return Promise.resolve(despesa.id);
     }
     async getById(id: number): Promise<Despesa> {
         const despesa = this.despesas.find((item) => item.id === id);

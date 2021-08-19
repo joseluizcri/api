@@ -1,3 +1,3 @@
 export default interface CalculoVencimento {
-    getProximoVencimento(vencimentoOriginal: Date, numeroParcela: number): Date;
+    getVencimentoParcela(vencimentoOriginal: Date, numeroParcela: number): Date;
 }
